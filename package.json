@@ -1,0 +1,17 @@
+{
+  "name": "object-detection-system",
+  "version": "1.0.0",
+  "description": "Real-time object and person detection system",
+  "main": "api/index.py",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "pip install -r api/requirements.txt",
+    "start": "cd api && python index.py"
+  },
+  "keywords": ["object-detection", "flask", "opencv", "computer-vision"],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
